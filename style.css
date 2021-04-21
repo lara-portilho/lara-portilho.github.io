@@ -1,0 +1,163 @@
+body {
+	font-family: 'Raleway', sans-serif;
+	background-image: url('https://www.sardep.com.br/images/materiais/marmores/importados/marmore-importado-carrara.jpg');
+  	background-repeat: no-repeat;
+  	background-size: cover;
+}
+
+.menuLateral {
+	height: 100%;
+	width: 300px;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	background-image: linear-gradient(#362b4d, #0a0612);
+	overflow-x: hidden;
+	padding-top: 20px;
+	border-right: 3px solid #c88f8f;
+	-webkit-box-shadow: 5px 5px 15px -2px #000000; 
+	box-shadow: 5px 5px 15px -2px #000000;
+}
+
+#pessoal h2{
+	text-align: center;
+	background-color: white;
+	padding: 5px;
+	border-top: 3px solid #c88f8f;
+	margin-top: 10px; 
+	margin-bottom: 0;
+}
+
+#pessoal h3{
+	text-align: center;
+	background-color: white;
+	padding: 5px;
+	border-bottom: 3px solid #c88f8f;
+	margin: 0;
+}
+
+#indice {
+	margin: 10px;
+	background-color: white;
+	border: 3px solid #c88f8f;
+	border-radius: 10px;
+}
+
+#indice h2{
+	text-align: center;
+}
+
+#contato {
+	display: flex;
+	justify-content: center;
+}
+
+.sobre {
+	margin-left: 305px;
+	padding: 0px 60px;
+}
+
+.projetos {
+	margin-left: 305px;
+	padding: 0px 60px;
+}
+
+.projetos div {
+	width: 400px;
+	border: 3px solid #362b4d;
+	padding: 10px;
+	border-radius: 10px;
+	background-color: #eee5ce;
+	-webkit-box-shadow: 5px 5px 15px 5px #000000; 
+	box-shadow: 5px 5px 15px 5px #000000;
+	margin-bottom: 5px;
+}
+
+.projetos h2 {
+	text-align: center;
+}
+
+.projetos p {
+	text-align: center;
+}
+
+#imersaoAlura {
+	float: left;
+}
+
+#outro {
+	float: right;
+}
+
+h1 {
+	font-size: 50px;
+	text-align: center;
+}
+
+img {
+	width: 150px;
+	height: 150px;
+	border-radius: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	border: 3px solid #bf9684;
+}
+
+a:link, a:visited {
+	text-decoration: none;
+	color: black;
+}
+
+a:hover {
+	text-decoration: underline;
+	color: purple;
+}
+
+a:active {
+	text-decoration: underline;
+	color: blue;
+}
+
+.fa {
+	padding: 20px;
+	font-size: 30px;
+	width: 15px;
+	height: 15px;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 100%;
+
+}
+
+a.fa:link, a.fa:visited {
+	color: white;
+	text-decoration: none;
+}
+
+a.fa:hover, a.fa:active {
+	color: white;
+	text-decoration: none;
+    opacity: 0.7;
+}
+
+.fa-envelope {
+	margin: 3px;
+	background: #dd4b39;
+}
+
+.fa-linkedin {
+	margin: 3px;
+	background: #007bb5;
+}
+
+.fa-github {
+	margin: 3px;
+	background: #222;
+}
+
+.fa-wordpress {
+	margin: 3px;
+	background: #4c6ef5;
+}
