@@ -1,82 +1,194 @@
 <!DOCTYPE html>
 <html lang="pt">
 <head>
-	<link href="style.css" rel="stylesheet">
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="author" content="Lara Portilho Marques">
 	<link rel="preconnect" href="https://fonts.gstatic.com">
-	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway&display=swap">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap"> 
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<title>Lara Portilho Marques | Dev Júnior</title>
 </head>
 <body>
-	<section class="menuLateral">
-		<div id="pessoal">
-			<img src="https://unavatar.now.sh/github/lara-portilho" />
-			<h2>Lara Portilho Marques</h2>
-			<h3>Desenvolvedora Júnior</h3>
+
+	<nav class="navbar">
+		<a href="#main" class="title">
+			Lara Portilho Marques
+			<span class="separator-hidden"> | </span>
+			<br class="break-hidden" />
+			Dev Júnior
+		</a>
+
+		<hr class="hr-hidden" />
+
+		<div class="links">
+			<a href="#about">Sobre</a>
+			<a href="#projects">Projetos</a>
+			<a href="#contact">Contato</a>
 		</div>
-		<div id="indice">
-			<h2>Índice</h2>
-			<ul>
-				<li><a href="#sobre"><strong>Sobre Mim</strong></a></li>
-				<li><a href="#projetos"><strong>Projetos</strong></a></li>
+	</nav>
+
+	<div class="container">
+		<section class="main" id="main">
+			<h1>Lara Portilho Marques</h1>
+			<h2>Desenvolvedora Júnior</h2>
+		</section>
+	
+		<section class="about" id="about">
+			<img src="https://unavatar.now.sh/github/lara-portilho" class="profile-pic" />
+			<h1>Sobre mim</h1>
+			<div class="about-body">
+				<p>Olá, meu nome é Lara Portilho Marques. Sou uma desenvolvedora júnior, com foco em 
+					desenvolvimento web (principalmente frontend). Atualmente sou trainee na empresa ELO Júnior 
+					e estudo Engenharia de Computação na UFG. Apesar de ser jovem e iniciante no mundo da 
+					programação, estou sempre em busca de aprender novas tecnologias e desenvolver tanto 
+					<i>hard skills</i> quanto <i>soft skills</i>.
+				</p>
 				<ul>
-					<li><a href="#imersaoAlura">Imersão Dev - Alura</a></li>
+					<li>
+						<img src="./assets/logos/react.png" alt="React">	
+					</li>
+					<li>
+						<img src="./assets/logos/c.png" alt="C">
+					</li>
+					<li>
+						<img src="./assets/logos/typescript.png" alt="Typescript">
+					</li>
+					<li></li>
 				</ul>
-			</ul>
+			</div>
+		</section>
+
+		<section class="projects" id="projects">
+			<h1>Projetos</h1>
+
+			<article class="project-container">
+
+				
+				<div class="project-description">
+					<h2>Book Lovers</h2>
+					
+					<p>A ideia desse projeto surgiu a partir de uma necessidade de organizar, de forma 
+						digital, os livros que possuo. Serviu também para praticar meus conhecimentos em 
+						React.js e conhecer um pouco mais da plataforma Firebase. Nele, é possível criar uma 
+						conta e salvar livros já lidos. Há campos para autor, coleção, e até data de início 
+						e fim da leitura, entre outros.
+					</p>
+
+					<ul>
+						<li>Data: Julho de 2021</li>
+						<li>Linguagem principal: Typescript</li>
+						<li>Frontend: React.js</li>
+						<li>Backend: Firebase</li>
+					</ul>
+					
+					<div class="project-links">
+						<a href="https://book-lovers-5949b.web.app/"
+							target="_blank">
+							Acesse o site!
+						</a>
+						<a href="https://github.com/lara-portilho/book_lovers"
+							target="_blank">
+							GitHub
+						</a>
+				
+					</div>
 				</div>
-		<div id="contato">
-			<a href="mailto:lara.portilho.m@gmail.com" target="_blank" class="fa fa-envelope"></a>
-			<a href="https://www.linkedin.com/in/lara-portilho-marques/" target="_blank" class="fa fa-linkedin"></a>
-			<a href="https://github.com/lara-portilho" target="_blank" class="fa fa-github"></a>
-			<a href="https://laraportilho.wordpress.com/" target="_blank" class="fa fa-wordpress"></a>
-		</div>
-	</section>
 
-	<section class="sobre" id="sobre">
-		<h1>Sobre mim</h1>
-		<p>
-			Aos 18 anos, comecei minha jornada no mundo da programação. Ainda não possuo muita experiência nem conhecimento técnico, porém estou determinada a aprender o máximo possível até entrar definitivamente no mercado de trabalho. Atualmente, sou discente do 1º período da Universidade Federal de Goiás, no curso de Engenharia de Computação.
-		</p>
-		<p>
-			As linguagens de programação que já tive contato são:
-			<ul>
-				<li>C</li>
-				<li>Python</li>
-				<li>JavaScript (HTML + CSS)</li>
-			</ul>
-		</p>
-	</section>
+				<ul class="project-images">
+					<li>
+						<img src="./assets/Book Lovers/Book Lovers Login.png"
+							alt="Book Lovers - Login">
+					</li>
+					<li>
+						<img src="./assets/Book Lovers/Book Lovers Home.png"
+							alt="Book Lovers - Home">
+					</li>
+					<li>
+						<img src="./assets/Book Lovers/Book Lovers AddBook.png"
+							alt="Book Lovers - AddBook">
+					</li>
+					<li>
+						<img src="./assets/Book Lovers/Book Lovers List.png"
+							alt="Book Lovers - List">
+					</li>
+				</ul>
+			</article>
 
-	<section class="projetos" id="projetos">
-		<h1>Meus projetos</h1>
+			<article class="project-container">
+
+				
+				<div class="project-description">
+					<h2>Next Level Week 6 - Node.js</h2>
+					
+					<p>Este projeto foi desenvolvido durante a Next Level Week 06, disponibilizada pela 
+						Rocketseat. Nele, o usuário cria uma conta e pode dar e receber elogios de outros 
+						usuários cadastrados, correlacionando-os com tags. Caso o usuário seja administrador, 
+						ele pode cadastrar outras tags.
+					</p>
+
+					<ul>
+						<li>Data: Junho de 2021</li>
+						<li>Linguagem principal: Typescript</li>
+						<li>Backend: Node.js</li>
+					</ul>
+					
+					<div class="project-links">
+						<a href="https://github.com/lara-portilho/NLW-06-Node.js"
+							target="_blank">
+							GitHub
+						</a>
+				
+					</div>
+				</div>
+				
+				<ul class="project-images">
+					<li>
+						<img src="./assets/NLW06/NLW06 Logo.png"
+							alt="NLW06 - Logo">
+					</li>
+					<li>
+						<img src="./assets/NLW06/NLW06 Code.png"
+							alt="NLW06 - Code">
+					</li>
+					<li>
+						<img src="./assets/NLW06/NLW06 DB.png"
+							alt="NLW06 - DB">
+					</li>
+					<li>
+						<img src="./assets/NLW06/NLW06 Insomnia.png"
+							alt="NLW06 - Insomnia">
+					</li>
+				</ul>
+			</article>
+		</section>
+	
+		<section class="contact" id="contact">
+			<h1>Contato</h1>
+			<span>Gostaria de entrar em contato? Me mande uma mensagem!</span>
 			
-		<div id="imersaoAlura">
-			<h2>Imersão Dev - Alura</h2>
-			<p>
-			Este projeto foi realizado durante a Imersão Dev oferecida pela plataforma Alura entre 22 de março e 2 de abril de 2021. Nela aprendi os básicos de HTML, CSS e JavaScript.
-			</p>
-			<ul>
-				<li><a href="https://lara-portilho.github.io/ImersaoDev-Alura-Aula1/" target="_blank">💰 - Conversor de Moedas</a></li>
-	        	<li><a href="https://lara-portilho.github.io/ImersaoDev-Alura-Aula2/" target="_blank">🔢 - Calculadora</a></li>
-		        <li><a href="https://lara-portilho.github.io/ImersaoDev-Alura-Aula3/" target="_blank">🔮 - Mentalista</a></li>
-		        <li><a href="https://lara-portilho.github.io/ImersaoDev-Alura-Aula4/" target="_blank">🎬 - Aluraflix</a></li>
-		        <li><a href="https://lara-portilho.github.io/ImersaoDev-Alura-Aula5/" target="_blank">🎬 - Aluraflix2</a></li>
-		        <li><a href="https://lara-portilho.github.io/ImersaoDev-Alura-Aula6/" target="_blank">🏆 - Tabela de classificação</a></li>
-		        <li><a href="https://lara-portilho.github.io/ImersaoDev-Alura-Aula7/" target="_blank">🃏 - Super Trunfo</a></li>
-		        <li><a href="https://lara-portilho.github.io/ImersaoDev-Alura-Aula8/" target="_blank">🃏 - Super Trunfo 2</a></li>
-		        <li><a href="https://lara-portilho.github.io/ImersaoDev-Alura-Aula9/" target="_blank">🃏 - Super Trunfo 3</a></li>
-		        <li><a href="https://lara-portilho.github.io/ImersaoDev-Alura-Certificard/" target="_blank">🌐 - Certificard</a></li>
-			</ul>
-		</div>
+				<a href="mailto:lara.portilho.m@gmail.com" target="_blank" class="envelope">
+					<i class="fa fa-envelope"></i>
+					lara.portilho.m@gmail.com
+				</a>
+				
+				<!-- <a href="tel:+5562996542595" target="_blank" class="phone">
+					<i class="fa fa-phone"></i>
+					(62) 99654-2595
+				</a> -->
+			
+			<span>Também estou disponível nas seguintes redes sociais:</span>
+			<div class="social-media">
+				<a href="https://www.linkedin.com/in/lara-portilho-marques/" target="_blank" class="linkedin">
+					<i class="fa fa-linkedin"></i>
+				</a>
+				<a href="https://github.com/lara-portilho" target="_blank" class="github">
+					<i class="fa fa-github"></i>
+				</a>
+			</div>
+		</section>
+	</div>
 
-		<!--<div id="outro">
-			<h2>Outro</h2>
-		</div>-->
-	</section>
-	
-	
 </body>
 </html>
