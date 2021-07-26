@@ -121,7 +121,9 @@ h1 {
 .main {
   background-image: url(https://content.invisioncic.com/v310067/monthly_2021_04/photo-1542831371-29b0f74f9713.jpg.9c974557bee6d890e0281c497f16a52b.jpg);
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
   border-bottom: 5px solid var(--dark-blue);
   display: flex;
   align-items: center;
@@ -131,6 +133,7 @@ h1 {
 .main h1,
 .main h2 {
   background-color: var(--dark-blue);
+  text-align: center;
   color: white;
   padding: 10px;
   border-radius: 5px;
@@ -260,16 +263,18 @@ ul {
   width: 50%;
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   grid-template-rows: auto auto;
+  margin: 0;
+  align-items: center;
 }
 
 .project-images li {
   list-style: none;
   text-align: center;
-  margin: 10px;
+  margin: 0;
 }
 
 .project-images img {
-  width: 100%;
+  width: 95%;
 }
 
 @media screen and (max-width: 1040px) {
