@@ -1,0 +1,9 @@
+.container-projects {
+	min-height: calc(100vh - 70px);
+	margin-top: 70px;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	color: var(--white);
+}

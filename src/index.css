@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+
+:root {
+	--light-purple: #66557c;
+	--dark-purple: #0e0716;
+	--dark-purple-semi: rgba(20, 13, 28, 0.8);
+	--medium-purple: #221750;
+	--pink: #d93f87;
+	--white: #e6e6e6;
+}
+
+* {
+	font-family: 'Abel', sans-serif;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background: radial-gradient(ellipse at top right, #0000, var(--dark-purple)),
+		radial-gradient(ellipse at bottom left, #0000, var(--dark-purple));
+}
+html {
+	scroll-behavior: smooth;
+}
