@@ -7,8 +7,13 @@
 	color: var(--white);
 }
 
-.titles {
-	font-size: 20px;
+.titles h1 {
+	font-size: 4vw;
+	margin: 20px;
+}
+
+.titles h2 {
+	font-size: 2.5vw;
 	margin: 20px;
 }
 
@@ -19,11 +24,11 @@
 
 .home-links a {
 	border-radius: 3px;
-	width: 150px;
+	width: 100%;
 	padding: 10px;
 	transition: 0.6s all;
 	margin: 5px;
-	font-size: 20px;
+	font-size: 1.9vw;
 	color: var(--white);
 	text-decoration: none;
 	background-size: 200% 100%;
@@ -43,11 +48,16 @@
 		flex-direction: column;
 	}
 
-	.titles {
-		font-size: 16px;
+	.titles h1 {
+		font-size: 9vw;
+	}
+
+	.titles h2 {
+		font-size: 5.5vw;
 	}
 
 	.home-links a {
 		background: var(--medium-purple);
+		font-size: 4.5vw;
 	}
 }

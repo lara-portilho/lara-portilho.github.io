@@ -16,10 +16,42 @@
 	box-sizing: border-box;
 }
 
+html {
+	scroll-behavior: smooth;
+}
+
 body {
 	background: radial-gradient(ellipse at top right, #0000, var(--dark-purple)),
 		radial-gradient(ellipse at bottom left, #0000, var(--dark-purple));
 }
-html {
-	scroll-behavior: smooth;
+
+.mandala-1,
+.mandala-2 {
+	z-index: -1;
+	opacity: 0.4;
+	position: fixed;
+	overflow: hidden;
+	height: 70vh;
+}
+
+.mandala-1 {
+	top: calc(100vh - 50%);
+	left: calc(100vw - 110%);
+}
+
+.mandala-2 {
+	bottom: calc(100vh - 50%);
+	right: calc(100vw - 110%);
+}
+
+@media screen and (max-width: 768px) {
+	.mandala-1 {
+		top: calc(100vh - 30%);
+		left: calc(100vw - 110%);
+	}
+
+	.mandala-2 {
+		bottom: calc(100vh - 30%);
+		right: calc(100vw - 110%);
+	}
 }
