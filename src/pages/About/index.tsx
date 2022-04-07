@@ -1,3 +1,9 @@
+import react from '../../assets/logos/react.png'
+import typescript from '../../assets/logos/typescript.png'
+import c from '../../assets/logos/c.png'
+import ufglogo from '../../assets/logos/ufglogo.png'
+import elo from '../../assets/logos/elo.png'
+
 import './styles.css'
 
 export default function About() {
@@ -5,68 +11,60 @@ export default function About() {
 		<div className="container-about">
 			<div className="resumo">
 				<p>
-					Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-					Earum suscipit ducimus repudiandae possimus sit. Nobis,
-					minima dolores facilis perspiciatis quidem dicta temporibus
-					eligendi quaerat necessitatibus ipsa sed culpa explicabo
-					sint.
+					Olá, meu nome é Lara Portilho Marques. Sou uma
+					desenvolvedora júnior, com foco em desenvolvimento web
+					(principalmente frontend). Atualmente sou gerente de
+					projetos na empresa ELO Jr Engenharias e Arquitetura e
+					estudo Engenharia de Computação na UFG. Apesar de ser jovem
+					no mundo da programação, estou sempre em busca de aprender
+					novas tecnologias e estar sempre em desenvolvimento.
 				</p>
+
 				<p>
-					Deserunt minim ut non pariatur aliqua aute. Anim aute
-					proident ad laboris exercitation incididunt veniam aliquip
-					officia. Eiusmod ad Lorem nulla magna nisi mollit ullamco.
-					Cupidatat eu eu officia magna est incididunt ullamco
-					consectetur commodo laboris veniam voluptate aliqua. Nostrud
-					nisi veniam ex irure cupidatat velit mollit amet tempor esse
-					consectetur culpa tempor minim. Ipsum consectetur voluptate
-					non est deserunt amet est. Officia fugiat exercitation nisi
-					anim do commodo. Anim laborum proident nulla enim esse dolor
-					ex id excepteur do ex. Nostrud ad Lorem sint occaecat magna
-					et sit officia fugiat ipsum fugiat. Dolore officia tempor
-					qui eu est. Ipsum sit consequat eu id elit fugiat amet sint
-					id exercitation culpa. Dolor sit esse duis est elit eiusmod
-					quis nulla. Aliquip id esse tempor ullamco nisi. Aute elit
-					proident ullamco Lorem reprehenderit reprehenderit elit anim
-					do et. Elit officia in occaecat aliquip proident. Fugiat
-					consequat magna ullamco velit ad exercitation aliqua qui
-					consectetur non irure commodo fugiat. Excepteur consequat
-					quis Lorem adipisicing non. Aute est amet occaecat Lorem
-					laboris irure magna reprehenderit aliquip est enim aute.
-					Irure consequat et esse nisi dolor sit ea ullamco do veniam
-					anim.
+					Tenho conhecimento em diversas linguagens de programação,
+					como JavaScript, TypeScript e a biblioteca React para
+					desenvolvimento web, além das aprendidas durante a
+					faculdade, como C e Java.
 				</p>
-				<p>
-					Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-					Earum suscipit ducimus repudiandae possimus sit. Nobis,
-					minima dolores facilis perspiciatis quidem dicta temporibus
-					eligendi quaerat necessitatibus ipsa sed culpa explicabo
-					sint.
-				</p>
+
+				<div className="images">
+					<div>
+						<span>Linguagens</span>
+						<div className="logo-images">
+							<img src={react} alt="React Logo" />
+							<img src={typescript} alt="Typescript Logo" />
+							<img src={c} alt="C Logo" />
+						</div>
+					</div>
+
+					<div>
+						<span>Formação e Experiências</span>
+						<div className="logo-images">
+							<img src={ufglogo} alt="UFG Logo" />
+							<img src={elo} alt="ELO Jr Logo" />
+						</div>
+					</div>
+				</div>
 			</div>
 
 			<ul className="linha-do-tempo">
 				<div className="marcador"></div>
 				<li className="ano">
-					<p>2020</p>
+					<p>2022</p>
 				</li>
 
 				<li className="item">
 					<p>
-						Exercitation Lorem excepteur amet qui duis occaecat
-						occaecat duis consectetur eu commodo nostrud enim
-						incididunt. Ea esse deserunt consectetur sunt id minim
-						ullamco aute ipsum ea labore cupidatat laborum.
-						Voluptate mollit aute dolor commodo est exercitation.
+						Fui promovida à Gerente de Projetos na ELO Jr, sendo
+						responsável agora por acompanhar todos os projetos
+						relativos ao meu núcleo da empresa. Iniciei a
+						implementação da metodologia ágil Scrum para o
+						desenvolvimento dos sites e sistemas web para nossos
+						clientes.
 					</p>
 				</li>
 				<li className="item">
-					<p>
-						Cupidatat exercitation dolore sunt minim duis incididunt
-						cupidatat incididunt aliqua ex laboris eu. Minim culpa
-						tempor anim eiusmod. Officia anim ipsum cillum irure ea
-						eiusmod. Consectetur nostrud duis aute sint id excepteur
-						labore et veniam deserunt laboris.
-					</p>
+					<p></p>
 				</li>
 
 				<li className="ano">
@@ -75,30 +73,40 @@ export default function About() {
 
 				<li className="item">
 					<p>
-						Primeiro Item da linha do tempo, pode incluir qualquer
-						coisa aqui, desde imagens, a frames, é totalmente
-						responsivo.
+						Durante o meu período como desenvolvedora, concluí
+						diversos cursos de <i>soft skills</i> e{' '}
+						<i>hard skills</i>. Aprendi desenvolvimento web, HTML,
+						CSS, JavaScript e TypeScript, React e Node, além de
+						continuar me aprimorando em C e Java pela faculdade.
 					</p>
 				</li>
 
 				<li className="item">
 					<p>
-						Segundo Item da linha do tempo, pode incluir qualquer
-						coisa aqui, desde imagens, a frames, é totalmente
-						responsivo.
+						Comecei a trabalhar na ELO Jr Engenharias e Arquitetura,
+						uma empresa júnior cujo foco é desenvolvimento e
+						vivência empresarial. Nela, obtive habilidades tanto
+						técnicas como sociais e de gerenciamento.
 					</p>
 				</li>
 
 				<li className="ano">
-					<p>2022</p>
+					<p>2020</p>
 				</li>
 
 				<li className="item">
 					<p>
-						Primeiro Item da linha do tempo, pode incluir qualquer
-						coisa aqui, desde imagens, a frames, é totalmente
-						responsivo.
+						Ingressei na Universidade Federal de Goiás para
+						Engenharia de Computação. No entanto, o curso que era
+						para começar no segundo semestre foi adiado para ter
+						início em 2021. Com isso, comecei minha jornada no mundo
+						da programação em C com disciplinas ofertadas pela
+						faculdade para os prejudicados pela pandemia.
 					</p>
+				</li>
+
+				<li className="item">
+					<p></p>
 				</li>
 			</ul>
 		</div>

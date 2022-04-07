@@ -11,13 +11,15 @@
 	width: 50%;
 	display: flex;
 	justify-content: space-evenly;
+	align-items: center;
+	margin-top: 50px;
 }
 
 .container-contact form {
 	display: flex;
 	flex-direction: column;
 	margin: 5px;
-	font-size: 18px;
+	font-size: calc(16px + 0.2vw);
 }
 
 .container-contact form input,
@@ -46,6 +48,11 @@
 }
 
 .container-contact form button:hover {
+	color: var(--dark-purple);
+	background-color: var(--white);
+}
+
+.container-contact form button:disabled {
 	color: var(--dark-purple);
 	background-color: var(--white);
 }
