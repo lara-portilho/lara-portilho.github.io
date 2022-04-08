@@ -4,6 +4,16 @@
 	width: 100%;
 	display: flex;
 	align-items: center;
+	justify-content: center;
 	flex-direction: column;
 	color: var(--white);
+}
+
+.projects {
+	width: 100%;
+	max-width: 1024px;
+}
+
+.card img {
+	width: 500px;
 }

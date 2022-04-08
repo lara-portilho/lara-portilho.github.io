@@ -16,7 +16,7 @@ export default function Contact() {
 				'gmail',
 				'template_gmail',
 				'#form',
-				process.env.EMAILJS_USER_ID
+				import.meta.env.VITE_APP_EMAILJS_USER_ID
 			)
 			.then(() => {
 				toast.success('Enviado!')

@@ -3,7 +3,6 @@ import 'react-toastify/dist/ReactToastify.css'
 import React from 'react'
 import ReactDOM from 'react-dom'
 import Rotas from './Rotas'
-import 'dotenv/config'
 import './index.css'
 import mandala from './assets/mandala.png'
 
