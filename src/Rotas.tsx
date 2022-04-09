@@ -10,7 +10,7 @@ import Error from './pages/Error'
 
 export default function Rotas() {
 	return (
-		<BrowserRouter basename="https://lara-portilho.github.io/">
+		<BrowserRouter>
 			<Header />
 			<Routes>
 				<Route path="/" element={<Home />} />
