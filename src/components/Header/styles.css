@@ -1,0 +1,95 @@
+.header {
+	background-color: var(--light-purple);
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	height: 50px;
+	z-index: 1;
+}
+
+.header a {
+	color: var(--white);
+	text-decoration: none;
+	transition: 0.5s all;
+	height: 100%;
+	padding: 0 15px;
+}
+
+.header a:hover {
+	background-color: var(--medium-purple);
+}
+
+.logo {
+	font-size: 27px;
+	font-weight: bold;
+	display: flex;
+	align-items: center;
+}
+
+.links {
+	display: flex;
+	text-align: center;
+	height: 100%;
+}
+
+.links a {
+	font-size: 20px;
+	font-weight: bold;
+	flex-grow: 1;
+	flex-basis: 0;
+	display: flex;
+	align-items: center;
+}
+
+.home-link {
+	display: none !important;
+}
+
+.menu {
+	height: 100%;
+}
+
+.menu label,
+#hamburger {
+	display: none;
+	color: var(--white);
+}
+
+@media screen and (max-width: 768px) {
+	.header {
+		height: auto;
+	}
+
+	.links a {
+		display: block;
+		width: 100%;
+		padding: 5px;
+	}
+
+	.menu {
+		width: 100%;
+	}
+
+	.menu label {
+		display: inline-block;
+		font-style: normal;
+		font-size: 1.2em;
+		padding: 10px;
+	}
+
+	.links,
+	.logo {
+		display: none;
+	}
+
+	.menu input:checked ~ .links {
+		display: block;
+	}
+
+	.home-link {
+		display: block !important;
+	}
+}
