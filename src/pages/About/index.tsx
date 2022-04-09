@@ -14,7 +14,7 @@ export default function About() {
 					projetos na empresa ELO Jr Engenharias e Arquitetura e
 					estudo Engenharia de Computação na UFG. Apesar de ser jovem
 					no mundo da programação, estou sempre em busca de aprender
-					novas tecnologias e estar sempre em desenvolvimento.
+					novas tecnologias e estar em constante desenvolvimento.
 				</p>
 
 				<p>
