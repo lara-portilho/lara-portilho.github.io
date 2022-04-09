@@ -1,5 +1,6 @@
 .container-contact {
-	height: 100vh;
+	height: calc(100vh - 70px);
+	margin-top: 70px;
 	width: 100%;
 	color: var(--white);
 	display: flex;
