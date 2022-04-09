@@ -33,6 +33,7 @@ export default function Contact() {
 
 	return (
 		<div className="container-contact">
+			<h1>Contato</h1>
 			<section>
 				<form onSubmit={sendEmail} id="form">
 					<label htmlFor="name">Seu nome</label>

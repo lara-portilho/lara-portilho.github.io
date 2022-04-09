@@ -1,14 +1,11 @@
-import react from '../../assets/logos/react.png'
-import typescript from '../../assets/logos/typescript.png'
-import c from '../../assets/logos/c.png'
-import ufglogo from '../../assets/logos/ufglogo.png'
-import elo from '../../assets/logos/elo.png'
+import { LogosImages } from '../../assets/logos'
 
 import './styles.css'
 
 export default function About() {
 	return (
 		<div className="container-about">
+			<h1>Sobre</h1>
 			<div className="resumo">
 				<p>
 					Olá, meu nome é Lara Portilho Marques. Sou uma
@@ -31,17 +28,20 @@ export default function About() {
 					<div>
 						<span>Linguagens</span>
 						<div className="logo-images">
-							<img src={react} alt="React Logo" />
-							<img src={typescript} alt="Typescript Logo" />
-							<img src={c} alt="C Logo" />
+							<img src={LogosImages.react} alt="React Logo" />
+							<img
+								src={LogosImages.typescript}
+								alt="Typescript Logo"
+							/>
+							<img src={LogosImages.c} alt="C Logo" />
 						</div>
 					</div>
 
 					<div>
 						<span>Formação e Experiências</span>
 						<div className="logo-images">
-							<img src={ufglogo} alt="UFG Logo" />
-							<img src={elo} alt="ELO Jr Logo" />
+							<img src={LogosImages.ufglogo} alt="UFG Logo" />
+							<img src={LogosImages.elo} alt="ELO Jr Logo" />
 						</div>
 					</div>
 				</div>
@@ -63,7 +63,7 @@ export default function About() {
 						clientes.
 					</p>
 				</li>
-				<li className="item">
+				<li className="item empty">
 					<p></p>
 				</li>
 
@@ -105,7 +105,7 @@ export default function About() {
 					</p>
 				</li>
 
-				<li className="item">
+				<li className="item empty">
 					<p></p>
 				</li>
 			</ul>
